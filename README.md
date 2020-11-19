@@ -1,30 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js starter application w/ Storybook, Styled-Components, and TailwindCSS integrations
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
+npm i && npm run dev
 # or
-yarn dev
+yarn && yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## Learn More
+## Scripts
+```bash
+    # Start/run development server 
+    "dev": "next dev",
+    # Static build process
+    "build": "next build",
+    # Start/run static build
+    "start": "next start"
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Notes:
+Based on inspiration from the following articles/repos:
+- [An Efficient React + TailwindCSS + Styled Components Workflow](https://dev.to/dbshanks/an-efficient-react-tailwindcss-styled-components-workflow-458m)
+- [tailwind-nextjs-starter - Github ](https://github.com/jaakkolantero/tailwind-nextjs-starter)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Documentation:
+- [Next.js](https://nextjs.org/docs)
+- [Storybook](https://storybook.js.org/docs/react/)
+- [Styled-Components](https://styled-components.com/docs)
+- [TailwindCSS](https://tailwindcss.com/docs)
